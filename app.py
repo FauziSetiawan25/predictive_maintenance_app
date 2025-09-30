@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # ============================
-# Load model yang sudah dilatih di Colab
+# Load model yang sudah dilatih
 # ============================
 iso = joblib.load("model_iso.pkl")  # Isolation Forest
 rf = joblib.load("model_rf.pkl")    # Random Forest
